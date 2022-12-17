@@ -1,0 +1,73 @@
+body {
+	color: #ffffff;
+	font-size:13px;
+	text-align:center;
+
+	background-color: #666666;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#info {
+	position: absolute;
+	top: 0px; width: 100%;
+	padding: 5px;
+}
+
+a {
+	color: #a06851;
+}
+
+.start-screen{
+  position: fixed; 
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  opacity: .75;
+}
+
+#scoreDiv{
+	z-index: 99;
+	position: absolute;
+    top: 0;
+    left: 45%;
+    font-size: 100px;
+    height: 100px;
+    width:200px;
+    color: #ffffff;
+}
+
+#gameOver{
+	z-index: 100;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+#maxScore{
+	z-index: 98;
+	position: absolute;
+    top: 0;
+    left: 80%;
+    margin-top: 4%;
+    font-size: 20px;
+    height: 100px;
+    width:200px;
+    color: #ffffff;
+}
+
+#instructions{
+    z-index: 97;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 2%;
+    font-size: 20px;
+    height: 100px;
+    width:200px;
+    color: #ffffff;
+}
